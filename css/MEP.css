@@ -1,3 +1,7 @@
+body{
+  background-color: #E7E7E7;
+}
+
 #general_title{
   color: #24D6E5;
 }
@@ -8,6 +12,9 @@
 
 main {
   text-align: center;
+}
+
+main div {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -15,8 +22,36 @@ main {
 
 .titles {
   text-shadow: 1px 1px 1px blue;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #CECECE; 
 }
 
 main p {
-  width: 80%;
+  width: 50%;
+  margin: auto;
+  border-style: outset;
+  border-width: 5px;
+  border-color: blue;
+  background-color: #E7E7E7;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  position: center;
+  background: #3382CA;
+}
+
+header > #general_title {
+  height: 75px;
+  margin: 1%;
+}
+
+#madeby {
+  color: #33D2CA;
+  display: flex;
 }
