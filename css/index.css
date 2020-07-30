@@ -1,1 +1,14 @@
-#links
+#links > li{
+  text-align: center;
+  border: 2px;
+  border-radius: 10px;
+  border-style: inset;
+}
+
+#links > li:nth-child(odd){
+  background-color: #B1B5B8;
+}
+
+#links > li:nth-child(even){
+  background-color: #BECCD8;
+}
