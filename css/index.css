@@ -1,0 +1,26 @@
+body{
+  background-color: #E7E7E7;
+}
+
+#general_title{
+  color: #24D6E5;
+}
+
+#copyright {
+  color: red;
+}
+header {
+  display: flex;
+  position: center;
+  background: #3382CA;
+}
+
+header > #general_title {
+  height: 75px;
+  margin: 1%;
+}
+
+#madeby {
+  color: #33D2CA;
+  display: flex;
+}
