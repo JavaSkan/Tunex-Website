@@ -3,7 +3,7 @@
   text-align: center;
   border: 2px;
   border-radius: 5px;
-  border-style: inset;
+  border-style: outset;
 }
 
 #links > li:not(:hover){
@@ -11,7 +11,7 @@
   text-align: center;
   border: 2px;
   border-radius: 5px;
-  border-style: outset;
+  border-style: inset;
 }
 
 #links > li:nth-child(odd){
