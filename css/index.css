@@ -1,8 +1,17 @@
-#links > li{
+#links > li:hover{
+  margin: 10px;
   text-align: center;
   border: 2px;
-  border-radius: 10px;
+  border-radius: 5px;
   border-style: inset;
+}
+
+#links > li:not(:hover){
+  margin: 10px;
+  text-align: center;
+  border: 2px;
+  border-radius: 5px;
+  border-style: outset;
 }
 
 #links > li:nth-child(odd){
