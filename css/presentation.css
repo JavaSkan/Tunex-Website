@@ -24,7 +24,8 @@ main div {
   text-shadow: 1px 1px 1px blue;
   margin-left: 20%;
   margin-right: 20%;
-  background-color: #CECECE; 
+  background-color: #CECECE;
+  font-size: 2em;
 }
 
 main p {
@@ -34,6 +35,7 @@ main p {
   border-width: 5px;
   border-color: blue;
   background-color: #E7E7E7;
+  font-size: xx-large;
 }
 
 html {
