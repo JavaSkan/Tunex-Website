@@ -36,6 +36,7 @@ main p {
   border-color: blue;
   background-color: #E7E7E7;
   font-size: xx-large;
+  padding: 10px;
 }
 
 html {
